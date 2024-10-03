@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP01PDMI6.Credits"
+             Title="Créditos">
+    <VerticalStackLayout>
+        <Frame BackgroundColor="MediumPurple">
+            <Label 
+                Text="Nome: Ariel Martins Alves da Silva"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"/>
+            
+        </Frame>
+        <Frame BackgroundColor="DarkMagenta">
+            <Label
+                Text="Prontuário: CB3021521"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+        </Frame>
+        <Frame BackgroundColor="MediumPurple">
+            <Label 
+        Text="Nome: Ronald Pereira Evangelista"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"/>
+
+        </Frame>
+        <Frame BackgroundColor="DarkMagenta">
+            <Label
+        Text="Prontuário: CB3020282"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"/>
+        </Frame>
+        <Button
+            VerticalOptions="EndAndExpand"
+            Padding="15"
+            Margin="130"
+            Text="Retornar"
+            TextColor="White"
+            FontAttributes="Bold"
+            BackgroundColor="MediumPurple"
+            Clicked="OnBackClicked"
+            x:Name="BackBtn"/>
+    </VerticalStackLayout>
+</ContentPage>
